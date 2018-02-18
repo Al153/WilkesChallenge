@@ -8,6 +8,7 @@
 # IntelliJ project files
 .idea
 *.iml
-out
-!out/artifacts
+
 gen
+project
+target
