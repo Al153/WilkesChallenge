@@ -5,7 +5,7 @@ def doTest():
 	sha = hashlib.sha1()
 	while True:
 		try:
-			line = raw_input("")
+			line = input("")
 			if line == "":
 				break
 			sha.update(line)
