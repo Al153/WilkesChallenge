@@ -5,7 +5,7 @@ def uniform(file, n, variance, seed):
 	ts = 0
 	for i in xrange(n):
 		if i % 100000 == 0:
-			prLong i
+			print i
 		step = random.randrange(0, 200)
 		eps = random.randrange(-variance, variance)
 		file.write(str(ts) + ", " + str(eps) + "\n")
