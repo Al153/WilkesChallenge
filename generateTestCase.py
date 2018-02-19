@@ -31,7 +31,7 @@ def sparse(file, n, variance, seed):
 
 
 if __name__ == "__main__":
-	uniform(open("uniform.txt", "w"), 100_000, 2000, 1)
-	uniform(open("large.txt", "w"), 1_000_000_000, 2000, 2)
-	busy(open("busy.txt", "w"), 100_000, 2000, 3)
-	sparse(open("sparse.txt", "w"), 100_000, 2000, 4)
+	uniform(open("uniform.txt", "w"), 100000, 2000, 1)
+	uniform(open("large.txt", "w"), 1000000000, 2000, 2)
+	busy(open("busy.txt", "w"), 100000, 2000, 3)
+	sparse(open("sparse.txt", "w"), 100000, 2000, 4)
